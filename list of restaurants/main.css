@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    margin: 0 81px;
+}
+
+/* Header START */
+.site-header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-shadow: 0 0.5px 10px 0.1px #bebebe;
+}
+.row {
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 16.6px;
+}
+.button {
+    appearance: none;
+    background-color: #fff;
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 14px 20px;
+}
+.button:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease-in;
+}
+.basket {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Header END */
