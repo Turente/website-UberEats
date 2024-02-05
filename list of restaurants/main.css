@@ -12,6 +12,21 @@ body {
     padding: 0;    
 }
 
+.container {
+    max-width: 1124px;
+    padding: 0 13px 0 7px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
 /* Font Roboto START */
 @font-face {
     font-family: "Roboto";
@@ -48,12 +63,10 @@ body {
     top: 0;
     left: 0;
     position: fixed;
-    box-shadow: 0 0.5px 10px 0.1px #c4c4c4;
+    box-shadow: 0 0.5px 10px 0.1px #e0e0e0;
+    background-color: #fff;
 }
-.row {
-    align-items: center;
-    justify-content: space-between;
-}
+
 .menu ul {
     padding: 0;
     list-style-type: none;
@@ -61,11 +74,13 @@ body {
     align-items: center;
     column-gap: 16.6px;
 }
+
 button {
     font-family: "Roboto";
     font-size: 13px;
     font-weight: 500;
 }
+
 .button {
     appearance: none;
     background-color: #fff;
@@ -74,10 +89,12 @@ button {
     border-radius: 2px;
     padding: 14px 20px;
 }
+
 .button:hover {
     background-color: #e0e0e0;
     transition: background-color 0.3s ease-in;
 }
+
 .basket {
     width: 40px;
     display: flex;
@@ -87,12 +104,61 @@ button {
 /* Header END */
 
 /* Search START */
-search .container {
+search {
+    width: 100%;
+    padding-top: 128px;
+}
+
+.ss-title { 
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 100%;
     border-bottom: 1px solid #c4c4c4;
 }
-.s-search-title {
-    margin-top: 128px;
-    font-size: 16px;
-    color: #c4c4c4;
-}
+
 /* Search END */
+
+/* R-title START */
+section .r-title {
+    padding-top: 56px;
+    margin-bottom: 0;
+    padding-bottom: 16px;
+}
+.r-title {
+    font-size: 22px;
+    font-weight: 500;
+}
+/* R-title END */
+
+/* Card START */
+.card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+.card:hover {
+    background-color: #f0f0f0;
+}
+.card img {
+    width: auto;
+    width: 308px;
+    height: 256px;
+    padding-bottom: 12px;
+}
+.card-title {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.card-desc {
+    font-size: 14px;
+    color: #626262;
+}
+.card-time {
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+/* Card END */
