@@ -18,7 +18,6 @@ body {
 }
 
 .row {
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -103,6 +102,8 @@ button {
 }
 /* Header END */
 
+
+
 /* Search START */
 search {
     width: 100%;
@@ -133,11 +134,13 @@ section .r-title {
 
 /* Card START */
 .card {
+    padding-left: 0;
+    padding-right: 0;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     gap: 4px;
     margin-bottom: 16px;
+    flex-basis: auto;
 }
 .card:hover {
     background-color: #f0f0f0;
