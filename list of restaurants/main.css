@@ -18,7 +18,7 @@ body {
 }
 
 .row {
-    align-items: center;
+    /*align-items: center;*/
     justify-content: space-between;
 }
 
@@ -69,6 +69,11 @@ a {
     position: fixed;
     box-shadow: 0 0.5px 10px 0.1px #e0e0e0;
     background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -186,9 +191,63 @@ main .row:last-child {
     background-color: #262626;
     width: 100%;
 }
-
 .w-logo {
     padding-top: 56px;
     padding-bottom: 40.31px;
+    width: 100%;
+    border-bottom: 1px solid #979797;
+    margin-bottom: 32px;
+}
+.w-logo img {
+    max-width: 190.77px;
+    max-height: 19.69px;
+}
+.social-footer {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 308px;
+}
+.ru-select {
+    margin-bottom: 33px;
+}
+.social-title {
+    margin: 0;
+    padding-bottom: 17px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.social-title::before {
+    content: "#";
+    color: #49a144;
+}
+.f-social-icon {
+    display: flex;
+    gap: 8px;
+}
+.f-social-icon a:first-child {
+    padding-right: 4px;
+}
+.f-social-icon img {
+    max-width: 24px;
+    max-height: 24px;
+}
+.ul-footer {
+    margin: 0;
+    padding-top: 7px;
+    padding-right: 0;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    text-align: top;
+    flex-direction: column;
+    gap: 23px;
+    max-width: 308px;
+}
+.s-footer .row:nth-last-child(4) {
+    padding-bottom: 48px;
+    border-bottom: 1px solid #979797;
 }
 /* Footer END */
