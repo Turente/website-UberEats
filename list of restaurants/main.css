@@ -100,6 +100,7 @@ button {
     background-color: #fff;
     border: 2px solid #e0e0e0;
     padding: 14px 20px;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -209,7 +210,32 @@ main .row:last-child {
 }
 .ru-select {
     margin-bottom: 33px;
+    width: 227px;
+    height: 40px;
+    background-color: #3b3b3b;
+    border: none;
+    appearance: none;          /* стрелка скрыта */
+    -webkit-appearance: none;  /* стрелка скрыта */
+    -moz-appearance: none;     /* стрелка скрыта */
+    border-radius: 2px;
+    font-size: 13px;
+    color: #fff;
+    background-image: url(img/world.svg), url(img/arrow.svg);
+    background-position: 16px center, 205px center;
+    background-repeat: no-repeat, no-repeat;
+    padding-left: 48px;
+    outline: 0;
+    cursor: pointer;
 }
+.ru-select:hover {
+    background-color: #474747;
+    transition: background-color 0.3s ease-in;
+}
+.ru-select:not(.ru-select:hover) {
+    background-color: #3b3b3b;
+    transition: background-color 0.3s ease-in;
+}
+
 .social-title {
     margin: 0;
     padding-bottom: 17px;
