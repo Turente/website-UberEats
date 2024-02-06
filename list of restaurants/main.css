@@ -108,6 +108,11 @@ button {
     transition: background-color 0.3s ease-in;
 }
 
+.button:not(.button:hover) {
+    background-color: #fff;
+    transition: background-color 0.3s ease-in;
+}
+
 .basket {
     width: 40px;
     display: flex;
@@ -218,6 +223,7 @@ main .row:last-child {
     -webkit-appearance: none;  /* стрелка скрыта */
     -moz-appearance: none;     /* стрелка скрыта */
     border-radius: 2px;
+    font-family: "Roboto";
     font-size: 13px;
     color: #fff;
     background-image: url(img/world.svg), url(img/arrow.svg);
@@ -303,5 +309,32 @@ main .row:last-child {
 }
 .f-privacy a {
     width: 308px;
+}
+.btn-up {
+    width: auto;
+    bottom: 24px;
+    right: 16px;
+    position: fixed;
+}
+.button-up {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: #59bd5a;
+    border-radius: 2px;
+    background-image: url(img/arrow-up.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.button-up:hover {
+    background-color: #49a144;
+    transition: background-color 0.3s ease-in;
+}
+.button-up:not(.button-up:hover) {
+    background-color: #59bd5a;
+    transition: background-color 0.3s ease-in;
 }
 /* Footer END */
