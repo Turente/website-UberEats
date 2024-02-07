@@ -374,6 +374,13 @@ main .row:last-child {
 }
 /* Footer END */
 
+@media screen and (min-width: 1440px) {
+    .card img {
+        width: 355px;
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .logo img {
         width: 107px;
@@ -458,6 +465,10 @@ main .row:last-child {
         align-items: baseline;
         justify-content: center;
         gap: 24px;
+    }
+
+    .f-privacy a {
+        width: auto;
     }
 
     .btn-up {
