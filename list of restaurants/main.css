@@ -33,28 +33,28 @@ a {
 /* Font Roboto START */
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-Italic.ttf);
+    src: url(../fonts/Roboto/Roboto-Italic.ttf);
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto/Roboto-BoldItalic.ttf);
+    src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
     font-weight: bold;
     font-style: italic;
 }
@@ -240,7 +240,7 @@ main .row:last-child {
     font-family: "Roboto";
     font-size: 13px;
     color: #fff;
-    background-image: url(img/world.svg), url(img/arrow.svg);
+    background-image: url(../img/world.svg), url(../img/arrow.svg);
     background-position: 16px center, 205px center;
     background-repeat: no-repeat, no-repeat;
     padding-left: 48px;
@@ -355,7 +355,7 @@ main .row:last-child {
     border: none;
     background-color: #59bd5a;
     border-radius: 2px;
-    background-image: url(img/arrow-up.png);
+    background-image: url(../img/arrow-up.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20%;
@@ -397,7 +397,7 @@ main .row:last-child {
 
     .ru-select {
         width: 176px;
-        background-image: url(img/hf-world.svg), url(img/arrow.svg);
+        background-image: url(../img/hf-world.svg), url(../img/arrow.svg);
         background-position: 16px center, 154px center;
     }
 

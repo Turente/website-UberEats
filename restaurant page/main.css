@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    padding-top: 72px;
+}
+
+.container {
+    max-width: 1124px;
+    padding: 0 13px 0 7px;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Font Roboto START */
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+/* Font Roboto END */
+
+/* Header START */
+.site-header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-shadow: 0 0.5px 10px 0.1px #e0e0e0;
+    background-color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 119.23px;
+    height: 12.31px;
+}
+
+.menu ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 16.6px;
+}
+
+button {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.button {
+    appearance: none;
+    background-color: #fff;
+    border: 2px solid #e0e0e0;
+    padding: 14px 20px;
+    cursor: pointer;
+    width: 78px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease-in;
+}
+
+.button:not(.button:hover) {
+    background-color: #fff;
+    transition: background-color 0.3s ease-in;
+}
+
+.basket {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Header END */
+
+/* Main-restaurant START */
+.main__restaurant {
+    height: 364px;
+    background-image: url(../img/restaurant-photo.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;    
+}
+.main__restaurant__name {
+    max-width: 389px;
+    height: 204px;
+    padding: 38px 29px 38px 38px;
+    background-color: #fff;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main__restaurant__name_title {
+    margin: 0;
+    padding-right: 9px;
+    font-size: 36px;
+    font-weight: 500;
+}
+.main__restaurant__name_descaption {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.main__restaurant__name_descaption_price {
+    padding-bottom: 8px;
+    font-size: 14px;
+    color: #626262;
+    display: flex;
+    width: max-content;
+    height: max-content;
+}
+.main__restaurant__name_descaption_time {
+    width: 100px;
+    height: 32px;
+    font-size: 13px;
+    color: #fff;
+    background-image: url(../img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Main-restaurant END */
