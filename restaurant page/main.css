@@ -22,7 +22,8 @@ body {
     justify-content: space-between;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin-top: 0;
 }
 
@@ -59,6 +60,7 @@ a {
     font-weight: bold;
     font-style: italic;
 }
+
 /* Font Roboto END */
 
 /* Header START */
@@ -124,6 +126,7 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 /* Header END */
 
 /* Main__restaurant START */
@@ -184,6 +187,7 @@ button {
     align-items: center;
     justify-content: center;
 }
+
 /* Main__restaurant END */
 
 /* Main__filter START */
@@ -217,11 +221,12 @@ button {
 .main__filter__ul__li__a_active {
     color: #327430;
 }
+
 /* Main__filter END */
 
 /* Main__cards START */
 .main__cards {
-    padding-bottom: 80px;
+    padding-bottom: 31px;
 }
 
 .main__cards__title {
@@ -236,7 +241,6 @@ button {
 
 .main__cards__snack {
     width: 100%;
-    height: 578px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -286,6 +290,7 @@ button {
 .main__cards__snack__a {
     width: 470px;
     height: 160px;
+    margin-bottom: 49px;
     padding: 0;
     border: 1px solid #c4c4c4;
     display: flex;
@@ -295,6 +300,7 @@ button {
 .main__cards__snack__a:hover {
     background-color: #f0f0f0;
 }
+
 /* Main__cards END */
 
 /* Footer START */
@@ -329,8 +335,8 @@ button {
     background-color: #3b3b3b;
     border: none;
     appearance: none;
-    -webkit-appearance: none;      
-    -moz-appearance: none;         
+    -webkit-appearance: none;
+    -moz-appearance: none;
     border-radius: 2px;
     font-family: "Roboto";
     font-size: 13px;
@@ -467,4 +473,138 @@ button {
     background-color: #59bd5a;
     transition: background-color 0.3s ease-in;
 }
+
 /* Footer END */
+
+@media screen and (max-width: 768px) {
+    .logo img {
+        width: 107px;
+        height: 11px;
+    }
+
+    .main__cards__snack__a {
+        width: 752px;
+    }
+
+    .main__cards__snack__ul__li__img {
+        width: 200px;
+    }
+
+    .ru-select {
+        width: 176px;
+        background-image: url(../img/hf-world.svg), url(../img/arrow.svg);
+        background-position: 16px center, 154px center;
+    }
+
+    .f-social-icon {
+        gap: 12px;
+    }
+
+    .f-social-icon a:first-child {
+        padding-right: 0px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .container {
+        margin-left: 8px;
+        margin-right: 4px;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .main__filter {
+        display: none;
+    }
+
+    .main__cards__snack__ul__li__title {
+        display: block;
+        max-width: 175px;
+        overflow: hidden;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+
+    .main__cards__snack__ul__li__title {
+        font-size: 14px;
+    }
+
+    .ru-select {
+        width: 173px;
+    }
+
+    .social-footer {
+        margin-bottom: 16px;
+    }
+
+    .ul-footer {
+        padding-top: 23px;
+    }
+
+    .s-footer .row:nth-last-child(4) {
+        padding-bottom: 40px;
+    }
+
+    .web-icon {
+        height: 84px;
+    }
+
+    .app_store img {
+        width: 108.6px;
+        height: 36px;
+    }
+
+    .google_play img {
+        width: 124px;
+        height: 36px;
+    }
+
+    .f-privacy {
+        height: 167px;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .f-privacy a {
+        width: auto;
+    }
+
+    .btn-up {
+        width: 64px;
+        height: 64px;
+    }
+
+    .button-up {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main__cards__snack__ul__li__title {
+        max-width: 135px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main__cards__snack__ul__li__title {
+        max-width: 90px;
+    }
+
+    .main__cards__snack__ul__li__desc {
+        display: block;
+        max-width: 90px;
+        overflow: hidden;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    }
+}
